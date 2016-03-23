@@ -70,7 +70,7 @@ function deleteFromStorage(buttonID) {
 
 function showLocalStorage() {
 	if (window.location.href.indexOf("favorites") > -1) {
-		microAjax("../content.json", function(resp) { 
+		microAjax("./content.json", function(resp) { 
 			var data = JSON.parse(resp);
 			var shirts = data.shirts;
 			var shirtArray = [];
