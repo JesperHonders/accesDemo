@@ -1,0 +1,81 @@
+body, html {
+	padding: 0px;
+	margin: 0px;
+}
+#site-nav {
+	display: flex;
+	background: #333;
+	height: 2em;
+}
+
+nav ul {
+	margin: 0px;
+	text-align: left;
+}
+
+#feat li {
+	padding: 0px 1em;
+}
+
+li {
+	text-align: left;
+}
+
+nav ul li {
+	margin-left: 1em;
+	list-style: none;
+	font-family: sans-serif;
+	line-height: 2em;
+	color: white;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#products {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: url(img/backrep.jpg);
+	background-repeat: repeat;
+}
+
+#products section {
+	text-align: center;
+	color: white;
+	margin: 2em;
+	background: #333;
+	max-width: 20rem;
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+}
+
+.mail-ico {
+	max-height: 2rem;
+}
+section img {
+	max-width: 20rem;
+}
+
+.save {
+	vertical-align:baseline;
+}
+
+#save > img {
+	width: 1px!important;
+}
+
+span {
+	line-height:2rem;
+	vertical-align:middle;
+}
+
+.favoriteItem {
+	margin: 1em;
+}

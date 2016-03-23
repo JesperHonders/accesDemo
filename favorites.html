@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Demo</title>
+	<meta name="description" content="WebStorage Demo">
+	<meta name="author" content="Jesper">
+	<LINK HREF="style.css" REL="stylesheet" TYPE="text/css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul id="site-nav">
+				<li><a href="/">Home</a></li>
+				<li>Catagories</li>
+			</ul>
+		</nav>
+	</header>
+	<main data-bind="products" id="products">
+		
+		<a data-bind="link" href="">
+			<section>
+				<img data-bind="image" src="">
+				<h1 data-bind="name"></h1>
+				<span data-bind="price"></span>
+				<br/><span>T-Shirt</span>
+					<ul id="feat">
+						<li>Ethically sourced</li>
+						<li>Slim fit, but if that's not your thing, order a size up</li>
+					</ul>
+			</section>
+		</a>
+		
+	</main>
+	<script src="js/transparency.js"></script>
+	<script src="js/microajax.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
