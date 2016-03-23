@@ -20,7 +20,7 @@ function addFavoriteMenuItem(){
 	para.setAttribute('id','favorites')
 	var element = document.getElementById("site-nav");
 	element.appendChild(para);
-	document.getElementById('favorites').innerHTML = '<a href="/favorites.html">Favorites</a>';
+	document.getElementById('favorites').innerHTML = '<a href="./favorites.html">Favorites</a>';
 }
 
 
