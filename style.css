@@ -1,6 +1,9 @@
 body, html {
 	padding: 0px;
 	margin: 0px;
+	background: url(img/backrep.jpg);
+	background-repeat: repeat;
+	min-height: 100vh;
 }
 #site-nav {
 	display: flex;
@@ -43,8 +46,6 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	background: url(img/backrep.jpg);
-	background-repeat: repeat;
 }
 
 #products section {

@@ -1,8 +1,19 @@
 console.log('init')
 
 
+function lsTest(){
+    var test = 'test';
+    try {
+        localStorage.setItem(test, test);
+        localStorage.removeItem(test);
+        return true;
+    } catch(e) {
+        return false;
+    }
+}
+
 function init(){
-	if(typeof Storage !== "undefined")
+	if(lsTest() === true)
   {
   	addFavoriteMenuItem();
   	changeMailToStorage();
@@ -47,7 +58,7 @@ function changeMailToStorage() {
 	
 	for (var i = 0; i < saveButtons.length; i++) {
 		
-		
+		saveButtons[i].removeAttribute('href')
 		saveButtons[i].innerHTML = '<button onclick="addItemtoStorage('+i+')" class="favoriteItem">Opslaan</button>';
 	}
 	
